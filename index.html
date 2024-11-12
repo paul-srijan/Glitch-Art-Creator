@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glitch Art Creator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Glitch Art Creator</h1>
+    
+    <input type="file" id="upload" accept="image/*">
+    <canvas id="canvas"></canvas>
+    
+    <div class="controls">
+        <label> 
+            Pixel Displacement:
+            <input type="range" id="pixelDisplace" min="0" max="50" value="10">
+        </label>
+        <label>
+            Color Channel Shift:
+            <input type="range" id="channelShift" min="0" max="50" value="20">
+        </label>
+        <label>
+            Static Noise:
+            <input type="range" id="staticNoise" min="0" max="50" value="10">
+        </label>
+        <div class="button-group">
+            <button id="randomize">Randomize Effects</button>
+            <button id="download">Download Image</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -5,7 +5,8 @@ A simple yet powerful tool to create glitch art from uploaded images using HTML 
 ## 🚀 Demo
 
 Check out the **[Live Demo](#)** (add link if deployed) and start glitching your own images!
-![glitch-art-screenshot1](img/glitch art.jpg
+![glitch-art-screenshot1](img/glitch art.jpg)
+
 
 ## 📷 Features
 
